@@ -1,0 +1,182 @@
+
+@font-face {
+    font-family: 'Bisctecca';
+    src: url('./typographies/bistecca/Bistecca.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Robotto';
+    src: url('./typographies/roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Robotto';
+    overflow-x: hidden;
+    color: #468A8A;
+}
+.barreSuperieure {
+    width: 100vw;
+    background-color: #c08c7f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 30px;
+}
+.icones {
+    display: flex;
+    justify-content: space-between;
+    width: 7vw;
+    background-color: white;
+    border: 1px solid #468A8A;
+    border-radius: 8px;
+    padding: 4px 15px 4px 15px;
+    margin-top: 20px;
+}
+.icone {
+    width: 2vw;
+}
+.buttonRS {
+    width: 7vw;
+    background-color: white;
+    border: 1px solid #468A8A;
+    border-radius: 8px;
+    padding: 4px 15px 4px 15px;
+    margin-top: 21px;
+    height: 41px;
+    font-family: 'Robotto';
+    font-size: 16px;
+    color: #468A8A;
+}
+
+.divLogo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid #468A8A;
+    margin-bottom: 5px;
+}
+.logo {
+    width: 6vw;
+    margin-top: 15px;
+    color: #468A8A;
+}
+h1 {
+    font-family: 'Bisctecca';
+}
+
+.menu {
+    border-top: 1px solid #468A8A;
+    margin-top: 0px;
+}
+.menu > nav > ul {
+    display: flex;
+    justify-content: center;
+}
+.menu > nav > ul > li {
+    list-style: none;
+}
+.menu > nav > ul > li > a {
+    color: #468A8A;
+    font-size: 20px;
+    margin-left: 25px;
+    text-decoration: none;
+}
+.imageHeader {
+    width: 100vw;
+}
+#premiereSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.grille {
+    width: 30vw;
+}
+.imageSectionUne {
+    width: 26vw;
+    margin: 76px 0px -134px 15px;
+}
+.divText {
+    width: 25vw;
+    text-align: center;
+    padding: 0px 15px 0px 15px;
+}
+.divText > p {
+    font-size: 18px;
+}
+.trancheRose {
+    width: 100vw;
+    height: 150px;
+    background-color: #c08c7f;
+    border-bottom: 1px solid #468A8A;
+    position: static;
+    z-index: -1;
+}
+
+.Section {
+    border-top: 1px solid #468A8A;
+    margin-top: 5px;
+    border-bottom: 1px solid #468A8A;
+    margin-bottom: 5px;
+    text-align: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Section > h2 {
+    margin-bottom: 55px;
+}
+.divProduits {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 10vw;
+    overflow: hidden;
+    margin-right: 30px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.divProduits > img {
+    width: 10vw;
+}
+.ligneProduitsServices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.Services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.divServicesImg {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 10vw;
+    overflow: hidden;
+    margin-right: 30px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    border: 3px solid #468A8A;
+}
+#troisiemeSection {
+    background-image: linear-gradient(rgba(99, 123, 101, 0.5), rgba(99, 123, 101, 0.5)), url("./images/fond2.jpg");
+}
+#troisiemeSection > div > h2 {
+    color: white;
+}
+.divTémoignages {
+    width: 15vw;
+    height: 15vw;
+    text-align: center;
+    color: white;
+}
