@@ -50,21 +50,26 @@ body {
     font-size: 16px;
     color: #468A8A;
 }
-
+.buttonLarge {
+    width: 12vw;
+    margin-bottom: 50px;
+}
 .divLogo {
     display: flex;
     align-items: center;
     flex-direction: column;
     border-bottom: 1px solid #468A8A;
     margin-bottom: 5px;
+    font-size: 13px;
+    font-family: 'Bisctecca';
+}
+.divLogo > h1 {
+    margin-top: -5px;
 }
 .logo {
-    width: 6vw;
+    width: 10vw;
     margin-top: 15px;
     color: #468A8A;
-}
-h1 {
-    font-family: 'Bisctecca';
 }
 
 .menu {
@@ -127,9 +132,11 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .Section > h2 {
     margin-bottom: 55px;
+    width: 100vw;
 }
 .divProduits {
     width: 10vw;
@@ -146,9 +153,10 @@ h1 {
 }
 .ligneProduitsServices {
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 15px;
+}
+.ligneTémoignages {
+    display: flex;
 }
 .Services {
     display: flex;
@@ -168,15 +176,109 @@ h1 {
     align-items: center;
     border: 3px solid #468A8A;
 }
-#troisiemeSection {
+#quatriemeSection {
     background-image: linear-gradient(rgba(99, 123, 101, 0.5), rgba(99, 123, 101, 0.5)), url("./images/fond2.jpg");
 }
-#troisiemeSection > div > h2 {
+#quatriemeSection > h2 {
     color: white;
 }
 .divTémoignages {
-    width: 15vw;
-    height: 15vw;
+    width: 19vw;
+    height: 10vw;
     text-align: center;
     color: white;
+    padding-right: 32px;
+}
+#quatriemeSection > div.divButton {
+    width: 100vw;
+}
+.cinquiemeSection {
+    height: 500px;
+}
+
+.ligneProduitsServices.RS > div.premiereColonne > div {
+    flex-wrap: wrap;
+    display: flex;
+    width: 21vw;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+.ligneProduitsServices.RS > div.premiereColonne > div > img {
+    width: 5vw;
+    padding: 2px;
+}
+.ligneProduitsServices.RS > div.deuxiemeColonne {
+    flex-wrap: wrap;
+    display: flex;
+    width: 21vw;
+    align-content: flex-start;
+}
+div#premiereLigne {
+    width: 22vw;
+    display: flex;
+}
+.ligneProduitsServices.RS > div.deuxiemeColonne > div#premiereLigne > div {
+    width: 35vw;
+    height: 115px;
+    overflow: hidden;
+    display: flex;
+}
+.ligneProduitsServices.RS > div.deuxiemeColonne > div#premiereLigne > div > img {
+    width: 10vw;
+    object-fit: cover;
+}
+.ligneProduitsServices.RS > div.deuxiemeColonne > div#deuxiemeLigne {
+    width: 70vw;
+    height: 115px;
+    overflow: hidden;
+    margin-top: 2px;
+}
+.ligneProduitsServices.RS > div.deuxiemeColonne > div#deuxiemeLigne > img {
+    width: 21vw;
+    padding: 2px;
+    object-fit: cover;
+}
+
+/* FOOTER */
+.ligneFooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #44503C;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.carteImg {
+    width: 15vw;
+}
+.carteEntreprise {
+    color: white;
+}
+.deuxiemeColonneFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divLogoFooter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.divLogoFooter > img {
+    width: 10vw;
+}
+.divLogoFooter > h2 {
+    margin-top: -40px;
+    color: white;
+    font-size: 31px;
+    font-family: 'Bisctecca';
+}
+.iconesFooter {
+    display: flex;
+    justify-content: space-between;
+    width: 7vw;
+    padding: 4px 15px 4px 15px;
+    margin-top: 20px;
 }
