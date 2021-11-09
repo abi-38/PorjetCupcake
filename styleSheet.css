@@ -174,7 +174,17 @@ body {
     background-size: cover;
     display: flex;
     align-items: center;
+    justify-content: center;
     border: 3px solid #468A8A;
+}
+.divServicesImg > img {
+    width: 10vw;
+}
+#patisserieIcone {
+    width: 7vw;
+}
+#livraisonIcone {
+    width: 9vw;
 }
 #quatriemeSection {
     background-image: linear-gradient(rgba(99, 123, 101, 0.5), rgba(99, 123, 101, 0.5)), url("./images/fond2.jpg");
