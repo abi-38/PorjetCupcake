@@ -51,7 +51,7 @@ body {
     color: #468A8A;
 }
 .buttonLarge {
-    width: 12vw;
+    width: 50vw;
     margin-bottom: 50px;
 }
 .divLogo {
@@ -291,4 +291,116 @@ div#premiereLigne {
     width: 7vw;
     padding: 4px 15px 4px 15px;
     margin-top: 20px;
+}
+
+@media (max-width: 500px) {
+    .barreSuperieure {
+        height: 106px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+    .barreSuperieure > .icones {
+        width: 52vw;
+    }
+    .barreSuperieure > .icones > img {
+        width: 8vw;
+    }
+    .buttonRS {
+        width: 31vw;
+    }
+    .buttonRS.buttonLarge {
+        width: 50vw;
+    }
+    .logo {
+        width: 31vw;
+    }
+    .menu > nav > ul {
+        padding-left: 0px;
+    }
+    .menu > nav > ul > li > a {
+        margin-left: 13px;
+        font-size: 13px;
+    }
+    div > img.grille {
+        width: 80vw;
+    }
+    div > div.divText {
+        width: 75vw;
+    }
+    img.imageSectionUne {
+        width: 70vw;
+    }
+    .ligneProduitsServices, .ligneTémoignages {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Section {
+        height: auto;
+    }
+    .divProduits, .divServicesImg {
+        width: 70vw;
+        height: 70vw;
+        border-radius: 70vw;
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+    .divServicesImg {
+        margin-bottom: 0px;
+    }
+    .Services > p {
+        margin-top: 0px !important;
+    }
+    .divProduits > img, .divServicesImg > img {
+        width: 70vw;
+    }
+    #patisserieIcone, #livraisonIcone {
+        width: 50vw;
+    }
+    .divTémoignages {
+        width: 86vw;
+        padding-right: 0px;
+        height: auto;
+    }
+    div.premiereColonne, .ligneProduitsServices.RS > div.premiereColonne > div, .ligneProduitsServices.RS > div.deuxiemeColonne, .ligneProduitsServices.RS > div.deuxiemeColonne > div#deuxiemeLigne {
+        width: 99vw;
+    }
+    .ligneProduitsServices.RS > div.deuxiemeColonne > div#premiereLigne > div > img {
+        width: 90vw;
+    }
+    .ligneProduitsServices.RS > div.premiereColonne > div > img {
+        width: 42vw;
+    }
+    .ligneProduitsServices.RS > div.deuxiemeColonne > div#premiereLigne > div {
+        width: 45vw;
+    }
+    div#premiereLigne {
+        justify-content: space-around;
+        width: 99vw;
+    }
+    .ligneProduitsServices.RS > div.deuxiemeColonne > div#deuxiemeLigne, .ligneProduitsServices.RS > div.deuxiemeColonne > div#premiereLigne > div {
+        height: auto;
+    }
+    .ligneProduitsServices.RS > div.deuxiemeColonne > div#deuxiemeLigne > img {
+        width: 95vw;
+        padding-top: 5px;
+    }
+    .ligneFooter {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .carteImg {
+        width: 70vw;
+        margin-top: 15px;
+    }
+    .iconesFooter {
+        width: 70vw;
+        justify-content: space-around;
+    }
+    .iconesFooter > .icone {
+        width: 13vw;
+    }
+    .divLogoFooter > img {
+        width: 51vw;
+        margin-top: 15px;
+    }
 }
